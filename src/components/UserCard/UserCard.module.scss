@@ -1,0 +1,32 @@
+.userCard {
+  max-width: 400px;
+  min-width: 350px;
+  max-height: 250px;
+  border-radius: 8px;
+  place-self: center;
+
+    .row{
+      display: flex;
+
+      .section {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        .title {
+          font-weight: 600;
+        }
+      }
+    }
+
+  .icon {
+    position: absolute;
+    top: 20px;
+    right: 24px;
+  }
+}
+
+.modalContent {
+  .modalTitle {
+    font-weight: 600;
+  }
+}
